@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView 
+        android:id="@+id/txt_info"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        android:text="Thêm thành viên"
+        />
+    <EditText 
+        android:id="@+id/edit_Name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="50dp"
+        android:hint="Tên"
+        android:ems="10"
+        />
+	
+    <EditText 
+        android:id="@+id/edit_Age"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/edit_Name"
+        android:layout_alignLeft="@+id/edit_Name"
+        android:layout_marginTop="20dp"
+        android:hint="Tuổi"
+        android:ems="10"
+        />
+    <EditText 
+        android:id="@+id/edit_Address"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/edit_Age"
+        android:layout_alignLeft="@+id/edit_Age"
+        android:layout_marginTop="20dp"
+        android:hint="Địa chỉ"
+        android:ems="10"
+        />
+</RelativeLayout>

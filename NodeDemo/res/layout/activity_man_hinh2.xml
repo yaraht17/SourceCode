@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nodedemo.ManHinh2" >
+
+    <TextView
+        android:id="@+id/txt_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:text="Thêm thành viên" />
+
+    <EditText
+        android:id="@+id/edit_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="Tên" />
+
+    <EditText
+        android:id="@+id/edit_Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_Name"
+        android:layout_below="@+id/edit_Name"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Tuổi" />
+
+    <EditText
+        android:id="@+id/edit_Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_Age"
+        android:layout_below="@+id/edit_Age"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Địa chỉ" />
+
+    <Button
+        android:id="@+id/btn_Ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_Address"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:text="OK" />
+    <Button
+        android:id="@+id/btn_Record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_Address"
+        android:layout_toRightOf="@+id/btn_Ok"
+        android:layout_marginTop="20dp"
+        android:text="Record" />
+
+</RelativeLayout>
